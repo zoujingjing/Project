@@ -1,0 +1,154 @@
+/* CSS Document */
+body{
+	background-color:#CCCCCC;
+}
+ul{
+	padding:0px;
+	margin:0px;
+}
+.floatright{float:right;}
+.floatleft{float:left;}
+.clear{clear:both}
+/* head开始 */
+#head{
+	background-color:#0000CC;
+	height:60px;
+	width:1350px;
+}
+#head .title{
+	height:60px;
+	width:auto;
+	margin-left:50px;
+	line-height:60px;
+	color:#FFFFFF;
+	font-family:"华文仿宋";
+	font-size:24px;
+}
+#head .user{
+	height:60px;
+	line-height:60px;
+	color:#FFFFFF;
+	margin-right:50px;
+	width:auto;	
+	font-family:"华文仿宋";
+}
+#head a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#head a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#head a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#head a:active{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+/* content左边菜单栏 */
+#caidan{
+	width:150px;
+	background-color:#333333;
+	height:800px;
+	text-align:center;
+}
+#caidan a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#caidan a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#caidan a:hover{
+	color:#000000;
+	text-decoration:none;
+	background-color:#FFFFFF;
+	padding-bottom:5px;
+	padding-top:5px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+#caidan ul li{
+	margin-top:20px;
+}
+/* contenty右边主要内容 */
+#content2{
+	height:800px;
+	margin-left:80px;
+}
+#content2 .movie_manage{
+	margin-left:80px;
+	padding-top:50px;
+	font-size:16px;
+	color:#333333;
+
+}
+#content2 .movie_manage a:link{
+	color:#0000CC;
+	text-decoration:none;
+}
+#content2 .movie_manage a:visited{
+	color:#0000CC;
+	text-decoration:none;
+}
+#content2 .movie_manage a:hover{
+	color:#0000CC;
+	text-decoration:underline;
+}
+
+/* 基本信息内容*/
+#content2 .change{
+	padding-top:50px;
+	margin-right:400px;
+}
+#content2 .change a:link{
+	color:#0000CC;
+	text-decoration:none;
+}
+#content2 .change a:visited{
+	color:#0000CC;
+	text-decoration:none;
+}
+#content2 .change a:hover{
+	color:#0000CC;
+	text-decoration:underline;
+}
+#content2 .manager_information{
+	padding-top:50px;
+	padding-left:200px;
+}
+#yeshu{
+    text-align:center;
+    margin-top:-50px;
+    }
+   
+    #yeshu a:link{
+		color:#000000;
+		text-decoration:none;
+    }
+	#yeshu a:visited{
+		color:#000000;
+		text-decoration:none;
+    }
+    #yeshu a:hover{
+		color:#000000;
+		text-decoration:underline;
+	}
+	#yeshur a:active{
+		color:#000000;
+		text-decoration:underline;
+	}
+/* foot部分右边主要内容 */
+#footer{
+	height:auto;
+	font-family:"等线";
+	color:#FFFFFF;
+	text-align:center;
+	width:1350px;
+	background-color:#333333;
+}

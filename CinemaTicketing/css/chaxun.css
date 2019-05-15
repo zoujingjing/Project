@@ -1,0 +1,161 @@
+/* CSS Document */
+body{
+	background-image:url(../images/back.jpeg);
+	background-repeat:inherit;
+}
+ul{
+	padding:0px;
+	margin:0px;
+}
+.clear{clear:both;}
+#header{
+	height:50px;
+	font-family:"等线";
+	font-size:25px;
+	color:#FFFFFF;
+	text-align:center;
+	line-height:50px;
+	background-image:url(../images/head.png);
+	background-repeat:repeat-x;
+	margin-top:30px;
+}
+.floatright{float:right;}
+.floatleft{float:left;}
+#choose ul li{
+	font-size:10px;
+	text-align:right;
+	color:#FFFFFF;
+	list-style:none;
+	float:left;
+	margin-left:10px;
+}
+#choose{
+	margin-right:20px;
+}
+#choose a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#choose a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#choose a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#choose a:active{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#content1{
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	margin-top:20px;
+	height:auto;
+	background:#000000;
+	color:#FFFFFF;
+	font-family:"等线";
+}
+#content2{
+	margin-top:20px;
+	color:#FFFFFF;
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	height:500px;
+	background:#000000;
+	font-family:"等线";
+	text-align:center;
+	padding-top:50px;
+}
+#content2 a{
+	font-size:12px;
+	color:#FFFFFF;
+	border:solid 1px #FFFFFF;
+	width:20px;
+	height:10px;
+	text-decoration:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:6px;
+	padding-right:6px;
+}
+
+
+#table1,#table2,#table3{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	font-family:"等线";
+	color:#FFFFFF;
+	background:#000000;
+	width:1000px;
+	height:auto;
+	text-align:center;
+}
+#footer{
+	margin-top:50px;
+	height:auto;
+	font-family:"等线";
+	color:#FFFFFF;
+	text-align:center;
+	background-image:url(../images/head.png);
+	background-repeat:repeat-x;
+	margin-bottom:50px;
+}
+#footer a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#footer a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#footer a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#footer a:active{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#table1 a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#table1 a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#table1 a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#table1 a:active{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+
+#table2 a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#table2 a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#table2 a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#table2 a:active{
+	color:#FFFFFF;
+	text-decoration:underline;
+	
+}
+
+
+

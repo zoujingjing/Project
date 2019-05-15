@@ -1,0 +1,158 @@
+/* CSS Document */
+body{
+	background-image:url(../images/back.jpeg);
+}
+ul{
+	padding:0px;
+	margin:0px;
+}
+.clear{clear:both;}
+#header{
+	margin-top:30px;
+	height:50px;
+	font-family:"等线";
+	font-size:25px;
+	color:#FFFFFF;
+	text-align:center;
+	line-height:50px;
+	background-image:url(../images/head.png);
+	background-repeat:repeat-x;
+}
+.floatright{float:right;}
+.floatleft{float:left;}
+#choose ul li{
+	font-size:10px;
+	text-align:right;
+	color:#FFFFFF;
+	list-style:none;
+	float:left;
+	margin-left:10px;
+}
+#choose{
+	margin-right:20px;
+}
+
+#choose a:link,a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#choose a:hover,a:active{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#content-left a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#content-left a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#content-left a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#content-left a:active{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+
+
+#content0{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	width:1000px;
+	height:auto;
+	border:#000000;
+
+}
+#content-right{
+	background:#000000;
+	width:800px;
+	height:auto;
+	margin-bottom:50px;
+}
+#content-right .shouye_picture{
+	margin-left:200px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+#content-left{
+	color:#FFFFFF;
+	background:#000000;
+	width:200px;
+	text-align:center;
+	height:auto;
+}
+#content-left ul li{
+	text-align:center;
+	list-style:none;
+}
+#picture{
+	margin-right:2px;
+	margin-top:50px;
+	width:292px;
+	height:auto;
+}
+#jieshao{
+	color:#FFFFFF;
+	margin-left:50px;
+	margin-top:50px;
+	width:430px;
+	height:auto;
+	margin-bottom:50px;
+}
+#pianhua{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3px;
+	background:#000000;
+	width:1000px;
+	text-align:center;
+	color:#FFFFFF;
+}
+#picture a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#picture a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#picture a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#picture a:active{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#footer{
+	margin-top:50px;
+	height:auto;
+	font-family:"等线";
+	color:#FFFFFF;
+	text-align:center;
+	background-image:url(../images/head.png);
+	background-repeat:repeat-x;
+	margin-bottom:50px;
+}
+#footer a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#footer a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#footer a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#footer a:active{
+	color:#FFFFFF;
+	text-decoration:underline;
+}

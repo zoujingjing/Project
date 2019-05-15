@@ -1,0 +1,218 @@
+body {
+	background-image:url(../images/person_center_bg.jpg);
+	width:100%;
+	height:100%;
+	background-size:cover;
+
+}
+ul{
+	padding:0px;
+	margin:0px;
+}
+.floatleft{float:left;}
+.floatright{float:right}
+.clear{clear:both;}
+
+
+#head {
+	height:auto;
+	width:auto;
+	color:#FFFFFF;
+	text-align:center;
+}
+#head a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#head a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#head a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#head a:active{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+#fenge {
+	margin-top:3px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../images/huabian.png);
+	background-repeat:repeat-y;
+	width:870px;
+	height:31px;
+}
+
+#title{
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFFFFF;
+	height:50px;
+	width: 900px;
+	line-height:50px;
+	color:#666666;
+}
+#person_center{
+	margin-top:0px;
+	width:900px;
+	height:auto;
+	background-color:#FFFFFF;
+	margin-left:auto;
+	margin-right:auto;
+}
+#person_center .xuanxiang{
+	text-align:center;
+	width:150px;
+	background-color:#CCCCCC;
+}
+#person_center .xuanxiang a:link{
+	color:#999999;
+	text-decoration:none;
+}
+
+#person_center .xuanxiang a:visited{
+	color:#999999;
+	background-color:#FFFFFF;
+	text-decoration:none;
+	padding-left:43px;
+	padding-top:10px;
+	padding-right:43px;
+	padding-bottom:10px;
+}
+#person_center .xuanxiang a:hover{
+	color:#999999;
+	background-color:#FFFFFF;
+	text-decoration:none;
+	padding-left:43px;
+	padding-top:10px;
+	padding-right:43px;
+	padding-bottom:10px;
+}
+#person_center .xuanxiang a:active{
+	color:#999999;
+	background-color:#FFFFFF;
+	text-decoration:none;
+	padding-left:43px;
+	padding-top:10px;
+	padding-right:43px;
+	padding-bottom:10px;
+}
+#person_center .xuanxiang ul li{
+	margin-top:30px;	
+	color:#666666;
+	font-family:"等线";
+	list-style:none;
+}
+#person_center .base_information{
+	background-color:#FFFFFF;
+	width:750px;
+	height:500px;
+}
+#base_information{
+	width:750px;
+}
+#base_information .content{
+	margin-left:100px;
+	margin-top:50px;
+	font-family:"等线";
+	color:#666666;
+}
+#base_information .change{
+	text-align:right;
+	color:#666666;
+	font-size:15px
+}
+#base_information .change a:link{
+	color:#CCCCCC;
+	text-decoration:none;
+}
+#base_information .change a:visited{
+	color:#CCCCCC;
+	text-decoration:none;
+}
+#base_information .change a:hover{
+	color:#CCCCCC;
+	text-decoration:underline;
+}
+#base_information .change a:active{
+	color:#CCCCCC;
+	text-decoration:underline;
+}
+#uncompleted .number2{
+	margin-right:100px;
+}
+#uncompleted .number{
+	height:100px;
+	width:100px;
+	color:#666666;
+	text-align:center;
+}
+#uncompleted .number3{
+	height:50px;
+	width:100px;
+	line-height:50px
+}
+#uncompleted .detail{
+	padding-left:0px;
+	height:100px;
+	width:350px;
+	color:#666666;
+
+	text-align:center;
+}
+#uncompleted .zhuangtai{
+	margin-right:px;
+	height:100px;
+	width:100px;
+	color:#666666;
+	line-height:110px;
+	text-align:center;
+}
+#uncompleted .zhuangtai a:link{
+	color:#0000ff;
+	text-decoration:none;
+}
+#uncompleted .zhuangtai a:visited{
+	color:#0000ff;
+	text-decoration:none;
+}
+#uncompleted .zhuangtai a:hover{
+	color:#0000ff;
+	text-decoration:underline;
+}
+#history{
+	margin-top:100px;
+}
+#total{
+	margin-top:100px;
+}
+
+
+/*footer开始*/
+#footer{
+
+	text-align:center;
+	width:auto;
+	height:auto;
+}
+#footer a:link{
+	color:#000000;
+	text-decoration:none;
+}
+#footer a:visited{
+	color:#000000;
+	text-decoration:none;
+}
+#footer a:hover{
+	color:#000000;
+	text-decoration:underline;
+}
+#footer a:active{
+	color:#000000;
+	text-decoration:underline;
+}
+/*footer结束*/

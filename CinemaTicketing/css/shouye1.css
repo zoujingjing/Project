@@ -1,0 +1,152 @@
+body{
+	background-image:url(../images/back.jpeg);
+	background-repeat:inherit;
+}
+.floatright{float:right;}
+.clear{
+	clear:both;
+}
+ul{	
+	text-align:center;
+	padding:0px;
+	margin-left:350px;
+	margin-bottom:0px;
+	margin-right:70px;
+	margin-top:0px;
+}
+#headbar{
+		height:120px;
+		background-color:#000000;
+		margin-top:30px;
+}
+.center {
+		height:30px;
+		text-align:center;
+		color:#FFFFFF;
+		font-size:50px;
+		font-family:KaiTi;
+		word-spacing:10px;
+		margin-top:-8px;
+}
+#headbar .section1{
+	text-align:center;
+	color:#FFFFFF;
+}
+#headbar .section1 ul li{
+	margin-left:30px;
+	color:#FFFFFF;
+	list-style:none;
+	float:left;
+	text-align:center;
+}
+#headbar .section1 a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+#headbar .section1 a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+#headbar .section1 a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+
+}
+#headbar .section1 a:active{
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+
+#headbar .section3 ul li{
+	margin-left:100px;
+	color:#FFFFFF;
+	list-style:none;
+	float:left;
+	text-align:center;
+}
+#headbar .section3 a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+#headbar .section3 a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+#headbar .section3 a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+
+}
+#headbar .section3 a:active{
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+#more{
+	background-color:#000000;
+	color:#FFFFFF;
+	margin-top:15px;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#more a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+#more a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+#more a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+
+}
+#more a:active{
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+#section2{
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+    background-color:#000000;
+	color:#FFFFFF;
+	height:auto;
+}
+#footbar{
+	margin-top:30px;
+		background-color:#000000;
+		color:#FFFFFF;
+		text-align:center;
+}
+#footbar a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+#footbar a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+#footbar a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+
+}
+#footbar a:active{
+	color:#FFFFFF;
+	text-decoration:none;
+
+}
+  
