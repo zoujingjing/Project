@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75AA07C2-DB67-4728-A7F7-D7E65098D2CD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CinemaTicketingSystem</RootNamespace>
+    <AssemblyName>CinemaTicketingSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="backStage_adInfomationUpdate.aspx" />
+    <Content Include="backStage_adPasswordUpdate.aspx" />
+    <Content Include="backStage_login.aspx" />
+    <Content Include="backStage_main.aspx" />
+    <Content Include="backStage_movieAdd.aspx" />
+    <Content Include="backStage_movieManagement.aspx" />
+    <Content Include="backStage_movieUpdate.aspx" />
+    <Content Include="backStage_orderManagement.aspx" />
+    <Content Include="backStage_playAdd.aspx" />
+    <Content Include="backStage_playManagement.aspx" />
+    <Content Include="backStage_playUpdate.aspx" />
+    <Content Include="backStage_queryMovie.aspx" />
+    <Content Include="backStage_queryMovieSession.aspx" />
+    <Content Include="backStage_queryOrder.aspx" />
+    <Content Include="backStage_queryUser.aspx" />
+    <Content Include="backStage_userManagement.aspx" />
+    <Content Include="Changci.aspx" />
+    <Content Include="executeDeleteSql.aspx" />
+    <Content Include="homePage1.aspx" />
+    <Content Include="homePage2.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="money.aspx" />
+    <Content Include="movieDetail.aspx" />
+    <Content Include="movieInfo.aspx" />
+    <Content Include="movieList.aspx" />
+    <Content Include="payment.aspx" />
+    <Content Include="paymentSuccess.aspx" />
+    <Content Include="personCenter_main.aspx" />
+    <Content Include="personCenter_myOrders.aspx" />
+    <Content Include="personCenter_updateInfomation.aspx" />
+    <Content Include="personCenter_updatePassword.aspx" />
+    <Content Include="selectSeats.aspx" />
+    <Content Include="userRegister.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="backStage_adInfomationUpdate.aspx.cs">
+      <DependentUpon>backStage_adInfomationUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_adInfomationUpdate.aspx.designer.cs">
+      <DependentUpon>backStage_adInfomationUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_adPasswordUpdate.aspx.cs">
+      <DependentUpon>backStage_adPasswordUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_adPasswordUpdate.aspx.designer.cs">
+      <DependentUpon>backStage_adPasswordUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_login.aspx.cs">
+      <DependentUpon>backStage_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_login.aspx.designer.cs">
+      <DependentUpon>backStage_login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_main.aspx.cs">
+      <DependentUpon>backStage_main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_main.aspx.designer.cs">
+      <DependentUpon>backStage_main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_movieAdd.aspx.cs">
+      <DependentUpon>backStage_movieAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_movieAdd.aspx.designer.cs">
+      <DependentUpon>backStage_movieAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_movieManagement.aspx.cs">
+      <DependentUpon>backStage_movieManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_movieManagement.aspx.designer.cs">
+      <DependentUpon>backStage_movieManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_movieUpdate.aspx.cs">
+      <DependentUpon>backStage_movieUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_movieUpdate.aspx.designer.cs">
+      <DependentUpon>backStage_movieUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_orderManagement.aspx.cs">
+      <DependentUpon>backStage_orderManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_orderManagement.aspx.designer.cs">
+      <DependentUpon>backStage_orderManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_playAdd.aspx.cs">
+      <DependentUpon>backStage_playAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_playAdd.aspx.designer.cs">
+      <DependentUpon>backStage_playAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_playManagement.aspx.cs">
+      <DependentUpon>backStage_playManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_playManagement.aspx.designer.cs">
+      <DependentUpon>backStage_playManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_playUpdate.aspx.cs">
+      <DependentUpon>backStage_playUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_playUpdate.aspx.designer.cs">
+      <DependentUpon>backStage_playUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_queryMovie.aspx.cs">
+      <DependentUpon>backStage_queryMovie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_queryMovie.aspx.designer.cs">
+      <DependentUpon>backStage_queryMovie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_queryMovieSession.aspx.cs">
+      <DependentUpon>backStage_queryMovieSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_queryMovieSession.aspx.designer.cs">
+      <DependentUpon>backStage_queryMovieSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_queryOrder.aspx.cs">
+      <DependentUpon>backStage_queryOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_queryOrder.aspx.designer.cs">
+      <DependentUpon>backStage_queryOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_queryUser.aspx.cs">
+      <DependentUpon>backStage_queryUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_queryUser.aspx.designer.cs">
+      <DependentUpon>backStage_queryUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="backStage_userManagement.aspx.cs">
+      <DependentUpon>backStage_userManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backStage_userManagement.aspx.designer.cs">
+      <DependentUpon>backStage_userManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Changci.aspx.cs">
+      <DependentUpon>Changci.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Changci.aspx.designer.cs">
+      <DependentUpon>Changci.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Movies.cs" />
+    <Compile Include="Entity\MovieSession.cs" />
+    <Compile Include="Entity\Orders.cs" />
+    <Compile Include="Entity\Users.cs" />
+    <Compile Include="executeDeleteSql.aspx.cs">
+      <DependentUpon>executeDeleteSql.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="executeDeleteSql.aspx.designer.cs">
+      <DependentUpon>executeDeleteSql.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homePage1.aspx.cs">
+      <DependentUpon>homePage1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homePage1.aspx.designer.cs">
+      <DependentUpon>homePage1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homePage2.aspx.cs">
+      <DependentUpon>homePage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homePage2.aspx.designer.cs">
+      <DependentUpon>homePage2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="money.aspx.cs">
+      <DependentUpon>money.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="money.aspx.designer.cs">
+      <DependentUpon>money.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="movieDetail.aspx.cs">
+      <DependentUpon>movieDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="movieDetail.aspx.designer.cs">
+      <DependentUpon>movieDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="movieInfo.aspx.cs">
+      <DependentUpon>movieInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="movieInfo.aspx.designer.cs">
+      <DependentUpon>movieInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="movieList.aspx.cs">
+      <DependentUpon>movieList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="movieList.aspx.designer.cs">
+      <DependentUpon>movieList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="payment.aspx.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="payment.aspx.designer.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paymentSuccess.aspx.cs">
+      <DependentUpon>paymentSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paymentSuccess.aspx.designer.cs">
+      <DependentUpon>paymentSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="personCenter_main.aspx.cs">
+      <DependentUpon>personCenter_main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="personCenter_main.aspx.designer.cs">
+      <DependentUpon>personCenter_main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="personCenter_myOrders.aspx.cs">
+      <DependentUpon>personCenter_myOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="personCenter_myOrders.aspx.designer.cs">
+      <DependentUpon>personCenter_myOrders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="personCenter_updateInfomation.aspx.cs">
+      <DependentUpon>personCenter_updateInfomation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="personCenter_updateInfomation.aspx.designer.cs">
+      <DependentUpon>personCenter_updateInfomation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="personCenter_updatePassword.aspx.cs">
+      <DependentUpon>personCenter_updatePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="personCenter_updatePassword.aspx.designer.cs">
+      <DependentUpon>personCenter_updatePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="selectSeats.aspx.cs">
+      <DependentUpon>selectSeats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="selectSeats.aspx.designer.cs">
+      <DependentUpon>selectSeats.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SQLConnection.cs" />
+    <Compile Include="userRegister.aspx.cs">
+      <DependentUpon>userRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userRegister.aspx.designer.cs">
+      <DependentUpon>userRegister.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>36038</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
